@@ -154,36 +154,18 @@ class CustomersController < ApplicationController
     def customer_params
       params.require(:customer).permit(
         :company, #会社名
-        :store, #店舗名  #
         :first_name, #代表者
-        :last_name, #名前
-        :first_kana, #ミョウジ
-        :last_kana, #ナマエ
         :tel, #電話番号1
-        :tel2, #電話番号2
-        :fax, #FAX番号
-        :mobile, #携帯番号
         :industry, #業種
         :mail, #メール
         :url, #URL
+        :url_2, #URL
         :people, #人数
-        :postnumber, #郵便番号
         :address, #住所
         :caption, #資本金
         :remarks, #備考
-        :status, #ステータス
-        :memo_1, #ステータス
-        :memo_2, #ステータス
-        :memo_3, #ステータス
-        :memo_4, #ステータス
         :choice, #会社分類
-        :old_date, #インポート前コール日
-        :title, #取得タイトル
-        :old_statu, #古いステータス
-        :other, #その他
-        :url_2, #url2
-        :extraction_date, #抽出日
-        :customer_tel
+        :title #タイトル
        )
     end
 
