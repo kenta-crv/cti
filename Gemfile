@@ -72,7 +72,7 @@ gem 'kaminari'
 #gem 'will_paginate'
 
 gem 'ransack'
-gem 'bootstrap', '~> 4.1.1'
+gem 'bootstrap', '~> 4.3.1'
 gem 'haml-rails'
 
 gem 'ransack'
